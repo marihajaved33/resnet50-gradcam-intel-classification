@@ -1,0 +1,39 @@
+# Jupyter / Colab Notebook Checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Python Cache & Compiled Files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Model Checkpoints & Large File Assets
+*.keras
+*.h5
+*.hdf5
+*.tflite
+*.onnx
+*.weights
+*.pb
+
+# Dataset Folders & Downloads
+/dataset/
+/data/
+/kaggle/
+*.zip
+*.tar.gz
+
+# Virtual Environments
+venv/
+env/
+.venv/
+
+# IDE & Editor Settings
+.vscode/
+.idea/
+.DS_Store
+
+# Logs & Metrics
+*.log
+runs/
+wandb/
